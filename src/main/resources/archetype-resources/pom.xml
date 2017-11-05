@@ -8,12 +8,12 @@
 
 	<build>
 		<finalName>${artifactId}</finalName>
-		<sourceEncoding>UTF-8</sourceEncoding>
 	</build>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
