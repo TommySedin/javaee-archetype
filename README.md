@@ -3,7 +3,9 @@
 Klona detta repo, kör sedan dessa:
 
 ```
+cd javaee-archetype
 mvn clean install
+cd <ditt workspace>
 mvn archetype:generate -DarchetypeGroupId=se.adopi.edu -DarchetypeArtifactId=javaee-archetype -DarchetypeVersion=1.0 -DgroupId=<ditt groupId> -DartifactId=<ditt artifactId>
 ```
 
